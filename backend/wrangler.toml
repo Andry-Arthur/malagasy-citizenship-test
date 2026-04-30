@@ -1,0 +1,12 @@
+name = "malagasy-citizenship-test"
+main = "worker.js"
+compatibility_date = "2026-04-29"
+
+[vars]
+# Comma-separated list of allowed origins, for example:
+# ALLOWED_ORIGINS = "https://YOUR_GITHUB_USERNAME.github.io,https://YOUR_CUSTOM_DOMAIN"
+ALLOWED_ORIGINS = ""
+
+[[kv_namespaces]]
+binding = "RESULTS_KV"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"

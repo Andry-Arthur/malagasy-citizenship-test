@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practice Malagasy citizenship screening questions in Malagasy, French, or English.">
     <link rel="stylesheet" href="assets/styles.css">
-    <title>Responsive Triage App</title>
+    <title>Malagasy Citizenship Screening Test</title>
 </head>
 <body>
-    <h1>Responsive Screening App</h1>
-    <div id="app">
-        <!-- App content goes here -->
-    </div>
+    <script>
+        // Optional: set this to your deployed Worker URL, e.g. "https://your-worker.your-subdomain.workers.dev"
+        // Leave blank to disable result submissions.
+        window.__WORKER_URL__ = "";
+    </script>
+    <div id="app"></div>
+    <footer class="app-footer" id="app-footer">
+        <p class="app-footer__text">
+            This is a practice screening quiz for educational purposes only. It is not an official government examination.
+        </p>
+    </footer>
     <script src="assets/app.js"></script>
 </body>
 </html>
